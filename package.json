@@ -1,0 +1,14 @@
+{
+  "name": "html-pdf-chrome-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:benweizhu/html-pdf-chrome-example.git",
+  "author": "benweizhu <benweizhu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-headless-render-pdf": "^1.3.1"
+  },
+  "scripts": {
+    "start": "chrome-headless-render-pdf --url http://google.com --pdf test.pdf"
+  }
+}
