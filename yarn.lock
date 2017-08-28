@@ -83,9 +83,9 @@ chalk@^2.0.1:
     escape-string-regexp "^1.0.5"
     supports-color "^4.0.0"
 
-chrome-headless-render-pdf@^1.3.1:
+"chrome-headless-render-pdf@git+https://github.com/benweizhu/chrome-headless-render-pdf.git":
   version "1.3.1"
-  resolved "https://registry.yarnpkg.com/chrome-headless-render-pdf/-/chrome-headless-render-pdf-1.3.1.tgz#aaec476c6d3f67b8c63aab481c4f4ac5f3f78c11"
+  resolved "git+https://github.com/benweizhu/chrome-headless-render-pdf.git#9c8226de46b1df7ee92ec764f790cc19cfcc701a"
   dependencies:
     "@types/node" "^8.0.15"
     babel-polyfill "^6.23.0"
